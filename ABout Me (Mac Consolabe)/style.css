@@ -1,0 +1,24 @@
+body{
+    background-color: darkgoldenrod;
+}
+
+h1{
+    font-family:'Segoe UI';
+}
+td{
+    font-family: 'Segoe UI';
+}
+nav{
+    font-family: 'Segoe UI';
+}
+
+section{
+    font-family: 'Segoe UI';
+}
+
+#ft p { margin-bottom: 0; text-align: center;   }
+
+.image{
+    width: 30%;
+    height: auto;
+}
