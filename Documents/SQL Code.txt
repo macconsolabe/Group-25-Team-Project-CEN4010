@@ -1,0 +1,46 @@
+Table users as U{
+  userid int(20)
+  username varchar(50)
+  passwordhash varchar(50)
+  mobile int(15)
+  email varchar(50)
+  registered datetime
+  lastlogin datetime
+}
+Table friends as F{
+  friendid int(20)
+  sourceid int(20) [ref: > U.userid]
+  targetid int(20) [ref: > U.userid]
+  status int(6)
+  created datetime
+  updated datetime
+}
+Table messages as M{
+  messid int(20)
+  sourceid int(20) [ref: > U.userid]
+  targetid int(20) [ref: > U.userid]
+  content text
+  created datetime
+  modified datetime
+}
+Table profile as P{
+  proid int(20)
+  userid int(20) [ref: > U.userid]
+  details text
+}
+Table user_photos as UP{
+  photoid int(20) [ref: > J.pid]
+  proid int(20) [ref: > P.proid]
+}
+Table photos as J{
+  pid int(20)
+  userid int(20) [ref: > U.userid]
+  photo_title varchar(50)
+  photo_filename varchar(50)
+  caption text
+}
+Table videos as V{
+  videoid int(20)
+  userid int(20) [ref: > U.userid]
+  
+}
