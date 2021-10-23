@@ -1,0 +1,11 @@
+
+body{
+  text-align:center;
+  background:#dfdfdf;
+}
+h1{
+  text-transform:uppercase;
+  font-size:72px;
+  font-family:'Verdana';
+  padding:30px;
+}
