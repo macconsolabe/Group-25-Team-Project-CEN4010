@@ -1,5 +1,4 @@
 
-
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
 START TRANSACTION;
@@ -9,10 +8,9 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-
-
+/*!40101 SET NAMES utf8*/;
 --
--- Database: `test_db`
+-- Database: `cen4010_fa21_g25`
 --
 
 -- --------------------------------------------------------
@@ -33,8 +31,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `user_name`, `password`, `name`) VALUES
-(3, 'ela', '123', 'Ela'),
-(4, 'elias', '123', 'elias');
+(3, 'victor123', '202cb962ac59075b964b07152d234b70', 'Victor'),
+(4, 'victor', '202cb962ac59075b964b07152d234b70', 'Vic');
 
 --
 -- Indexes for dumped tables

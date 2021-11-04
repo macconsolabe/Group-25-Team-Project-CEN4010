@@ -1,6 +1,6 @@
 body {
     margin: 0 0 55px 0;
-    background-color: lightblue;
+    background-color: #dfdfdf;
 }
 
 .nav {
@@ -9,7 +9,7 @@ body {
     width: 100%;
     height: 55px;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-    background-color: #008B8B;
+    background-color: #383838;
     display: flex;
     overflow-x: auto;
 }
@@ -25,7 +25,7 @@ body {
     white-space: nowrap;
     font-family: sans-serif;
     font-size: 13px;
-    color: #00FFFF;
+    color: #dfdfdf;
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
     transition: background-color 0.1s ease-in-out;

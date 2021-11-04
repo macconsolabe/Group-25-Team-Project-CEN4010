@@ -15,6 +15,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
      </head>
 
      <body>
+
           <nav class="nav">
                <a href="#" class="nav__link">
                     <i class="material-icons nav__icon">chat</i>
@@ -38,6 +39,12 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                </a>
           </nav>
           <h1>Hello, <?php echo $_SESSION['name']; ?></h1>
+
+
+
+
+
+
           <nav class="home-nav">
                <a href="change-password.php">Change Password</a>
                <a href="logout.php">Logout</a>
