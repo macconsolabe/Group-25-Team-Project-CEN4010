@@ -3,6 +3,9 @@
 <head>
 	<title>SIGN UP</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="home.css">
+
+
 </head>
 <body>
      <form action="signup-check.php" method="post">
@@ -45,10 +48,10 @@
                  name="password" 
                  placeholder="Password"><br>
 
-          <label>Re Password</label>
+          <label>Re-Password</label>
           <input type="password" 
                  name="re_password" 
-                 placeholder="Re_Password"><br>
+                 placeholder="Re-Password"><br>
 
      	<button type="submit">Sign Up</button>
           <a href="index.php" class="ca">Already have an account?</a>

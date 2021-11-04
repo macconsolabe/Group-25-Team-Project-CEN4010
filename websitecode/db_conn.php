@@ -1,7 +1,7 @@
 <?php
 
-$sname= "localhost";
-$unmae= "root";
+$sname = "localhost";
+$unmae = "root";
 $password = "";
 
 $db_name = "test_db";
