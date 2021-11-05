@@ -39,3 +39,8 @@ body {
 .nav__icon {
     font-size: 18px;
 }
+
+.nav__link--active {
+    color:  #80ff80;
+}
+
