@@ -15,13 +15,13 @@
 </head>
 
 <body>
-    <!-- Search Bar -->
-    <div class="buscar-caja">
-        <input type="text" name="" id="search-text" class="buscar-txt" placeholder="Search ....." />
-        <a class="buscar-btn" id="search_button"> <i class="fa fa-search"></i> </a>
+
+    <div class="look-find">
+        <input type="text" name="" id="search-text" class="look-txt" placeholder="Search ....." />
+        <a class="look-btn" id="search_button"> <i class="fa fa-search"></i> </a>
     </div>
 
-    <!-- Load songs into here -->
+
     <div class="container" id="song-list">
         <div class="row">
             <div id="song_0" class="col"></div>

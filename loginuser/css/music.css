@@ -1,5 +1,5 @@
 
-/* Make Spotify Songs Look More Round */
+
 iframe {
   
   border-radius: 90px;
@@ -15,7 +15,7 @@ iframe {
   position: absolute;
   top: 20%; left: 25%;
 }
-.buscar-caja {
+.look-find {
   position: absolute;
   top: 10%; left: 50%;
   transform: translate(-50%, -50%);
@@ -23,16 +23,16 @@ iframe {
   border-radius: 40px;
   padding: 10px;
 }
-.buscar-caja:hover > .buscar-txt
+.look-find:hover > .look-txt
 {
   width: 240px;
   padding: 0 6px;
 }
-.buscar-caja:hover > .buscar-btn {
+.look-find:hover > .look-btn {
   background: white;
   color: black;
 }
-.buscar-btn {
+.look-btn {
 
   float: right;
   width: 40px;
