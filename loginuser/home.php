@@ -9,8 +9,8 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
 
      <head>
           <title>HOME</title>
-          <link rel="stylesheet" type="text/css" href="style.css">
-          <link rel="stylesheet" type="text/css" href="home.css">
+          <link rel="stylesheet" type="text/css" href="css/style.css">
+          <link rel="stylesheet" type="text/css" href="css/home.css">
           <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
      </head>
 
@@ -21,13 +21,13 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                     <i class="material-icons nav__icon">chat</i>
                     <span class="nav__text">Feed</span>
                </a>
-               <a href="#" class="nav__link nav__link--active">
+               <a href="#" class="nav__link">
                     <i class="material-icons nav__icon">person</i>
                     <span class="nav__text">Profile</span>
                </a>
-               <a href="#" class="nav__link">
+               <a href="playlist.php" class="nav__link nav__link--active">
                     <i class="material-icons nav__icon">headphones</i>
-                    <span class="nav__text">Playlist</span>
+                    <span class="nav__text">Music</span>
                </a>
                <a href="#" class="nav__link">
                     <i class="material-icons nav__icon">lock</i>

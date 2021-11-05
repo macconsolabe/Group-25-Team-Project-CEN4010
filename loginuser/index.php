@@ -4,13 +4,14 @@
 <head>
 	<title>LOGIN</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<script src="js/script.js"></script>
 </head>
 
-<body>	<div class="bam">
-	<h1>CORESHARE</h1>
+<body>
+	<div class="bam">
+		<h1>CORESHARE</h1>
 	</div>
 	<form action="login.php" method="post">
 		<h2>LOGIN</h2>
