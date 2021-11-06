@@ -46,11 +46,11 @@ iframe {
   color: #1DB954;
   cursor: pointer;
 }
-.buscar-btn > i
+.look-btn > i
 {
   font-size: 18px;
 }
-.buscar-txt {
+.look-txt {
   border: none;
   background: none;
   outline: none;
