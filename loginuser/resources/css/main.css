@@ -1,0 +1,277 @@
+/*============== MAIN SETTINGS ============*/
+
+
+button {
+  
+    font-size: 18px;
+}
+
+input[type=radio] {
+    width: auto;
+}
+
+textarea {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 100;
+}
+
+
+/*============== NAVBAR SETTINGS ============*/
+
+.usernav {
+    background-color: #383838;
+    overflow: auto;
+}
+
+.usernav ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+.usernav ul li {
+    display: inline;
+}
+
+.usernav ul li a {
+    display: inline-block;
+    color: white;
+    padding: 8px 16px;
+}
+
+.usernav ul li a:hover {
+    background-color: #383838;
+}
+
+
+/* Search */
+
+
+
+/*============== POSTS SETTINGS ============*/
+
+
+/* General Layout of Post */
+
+.post,
+.createpost {
+    background-color: white;
+    box-shadow: 0 0 5px #383838;
+    border-radius: 30px;
+    margin: auto;
+    width: 650px;
+    padding: 10px 16px;
+    overflow: auto;
+}
+
+
+/* Create Post Control */
+
+.createpostbuttons {
+    width: 35%;
+    margin: auto;
+    
+    overflow: auto;
+}
+
+.createpostbuttons img {
+    
+  float: left;
+}
+
+.createpostbuttons label {
+    cursor: pointer;
+}
+
+.createpostbuttons input[type="file"] {
+    display: none;
+}
+
+.createpostbuttons input[type=submit] {
+    width: 86%;
+    float: right;
+    background-color: #383838;
+}
+
+.createpostbuttons input[type=submit]:hover {
+    background-color: #383838;
+}
+
+
+/* Post */
+
+.post .public {
+    float: right;
+    text-align: center;
+    width: auto;
+}
+
+
+/*============== HEADINGS AND LINKS ============*/
+
+h1 {
+    
+    color: #383838;
+    font-weight: normal;
+    text-align: center;
+}
+
+h2 {
+   
+    color: #383838;
+    font-weight: normal;
+    font-size: 120%;
+    margin-bottom: 0;
+}
+
+h3,
+a.profilelink {
+    
+    color: #383838;
+    font-weight: normal;
+    font-size: 120%;
+    margin-bottom: 0;
+    margin-top: 0;
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: 12px;
+    text-decoration: none;
+}
+
+a.profilelink:hover {
+    text-decoration: underline;
+}
+
+
+/* Horizontal Line after H2 */
+
+hr {
+    margin-bottom: 30px;
+    margin-top: 0px;
+    border-color: #383838;
+}
+
+
+/*============== TAB SETTINGS ============*/
+
+div.tab {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+div.tab button {
+    background-color: #383838;
+    border: none;
+    outline: none;
+    color: white;
+    float: left;
+    padding: 10px;
+    cursor: pointer;
+    width: 50%;
+}
+
+div.tab button:hover {
+    background-color: #383838;
+}
+
+
+/*==============DEFAULT TAB SETTINGS ============*/
+
+div.tab button.active {
+    background-color: whitesmoke;
+}
+
+#signup {
+    display: none;
+}
+
+
+/*============== SUBMIT BUTTONS ============*/
+
+input[type=submit] {
+    color: white;
+    cursor: pointer;
+    background-color: #383838;
+    border: none;
+    padding: 8px;
+}
+
+.container input[type=submit] {
+    background-color: #383838;
+}
+
+.container input[type=submit]:hover {
+    background-color: #383838;
+}
+
+
+/*============= SPECIFIC BUTTONS MODIFICATION ========*/
+
+input[type=checkbox] {
+    width: fit-content;
+}
+
+
+/*============= FRIENDS FRAMES ========*/
+
+.frame {
+    width: 200px;
+    display: inline-block;
+    box-shadow: 0 0 5px #383838;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+/*============= SUB CONTAINERS ========*/
+
+.userquery {
+    background-color: whitesmoke;
+    box-shadow: 0 0 5px #383838;
+    margin: auto;
+    width: 320px;
+    padding: 20px 20px 0px 20px;
+    overflow: auto;
+    text-align: center;
+}
+
+.userquery a {
+    text-decoration: none;
+}
+
+.userquery a:hover {
+    text-decoration: underline;
+}
+
+
+/*============= DISABLED BUTTONS ========*/
+
+input:disabled {
+    cursor: auto;
+}
+
+#special:hover {
+    background-color: whitesmoke;
+}
+
+.dan {
+
+    margin: 100px;
+    position: absolute;
+
+}

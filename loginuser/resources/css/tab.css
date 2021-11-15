@@ -1,0 +1,33 @@
+div.tab {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+
+div.tab button:hover {
+    background-color: #383838;
+}
+
+
+/*==============DEFAULT TAB SETTINGS ============*/
+
+div.tab button.active {
+    background-color: grey;
+}
+
+#signup {
+    display: none;
+}
+
+
+input[type=checkbox] {
+    width: fit-content;
+}
+
+input:disabled {
+    cursor: auto;
+}
+

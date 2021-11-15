@@ -16,6 +16,9 @@ $( document ).ready(function() {
       }
   };
 
+
+  
+
    
     const accessToken = getUrlParameter('access_token');
 
@@ -33,6 +36,8 @@ $( document ).ready(function() {
 
    
     $( "#search_button" ).click(function() {
+      
+
       
       let raw_search_query = $('#search-text').val();
       let search_query = encodeURI(raw_search_query);
