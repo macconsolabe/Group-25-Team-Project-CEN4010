@@ -1,6 +1,7 @@
 body {
     margin: 0 0 55px 0;
     background-color: #dfdfdf;
+    padding-top: 60px;
 }
 
 .nav {
@@ -43,4 +44,5 @@ body {
 .nav__link--active {
     color:  #80ff80;
 }
+
 

@@ -9,15 +9,15 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <!-- Loading our stylesheet -->
-    <link href="css/music.css" rel="stylesheet" id="bootstrap-css">
-    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <link href="resources/css/music.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" type="text/css" href="resources/css/home.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
 
     <div class="look-find">
-        <input type="text" name="" id="search-text" class="look-txt" placeholder="Search ....." />
+        <input type="text" name="" id="search-text" class="look-txt" placeholder="Click Icon to Start Search ➢➢" />
         <a class="look-btn" id="search_button"> <i class="fa fa-search"></i> </a>
     </div>
 
@@ -54,7 +54,7 @@
             <i class="material-icons nav__icon">chat</i>
             <span class="nav__text">Feed</span>
         </a>
-        <a href="#" class="nav__link">
+        <a href="profile.php" class="nav__link">
             <i class="material-icons nav__icon">person</i>
             <span class="nav__text">Profile</span>
         </a>
@@ -62,13 +62,26 @@
             <i class="material-icons nav__icon">headphones</i>
             <span class="nav__text">Music</span>
         </a>
-        <a href="#" class="nav__link">
-            <i class="material-icons nav__icon">lock</i>
-            <span class="nav__text">Privacy</span>
+        <a href="friends.php" class="nav__link">
+            <i class="material-icons nav__icon">people</i>
+            <span class="nav__text">Friends</span>
         </a>
-        <a href="#" class="nav__link">
-            <i class="material-icons nav__icon">settings</i>
-            <span class="nav__text">Settings</span>
+        <a href="logout.php" class="nav__link">
+            <i class="material-icons nav__icon">logout</i>
+            <span class="nav__text">Logout</span>
+        </a>
+        <a>
+
+            <div class="globalsearch">
+                <form methid="get" action="search.php" onsubmit="return validateField()">
+                    <!-- Ensure there are no enter escape characters.-->
+                    <select name="location">
+                        <option value="names">Names</option>
+                        <option value="posts">Posts</option>
+                    </select><input type="text" placeholder="Search" name="query" id="query"><input type="submit" value="Search" id="querybutton">
+                </form>
+            </div>
+
         </a>
     </nav>
 
@@ -93,7 +106,7 @@
     <!-- Latest compiled and minified Bootstrap JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- Loading our JavaScript -->
-    <script src="js/music.js" charset="utf-8"></script>
+    <script src="resources/js/music.js" charset="utf-8"></script>
 </body>
 
 </html>
